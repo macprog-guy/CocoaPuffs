@@ -1,7 +1,6 @@
 = CocoaPuffs Framework
 
-CocoaPuffs is a Mac OS X framework that adds functionality to many Cocoa and Foundation classes
-as well as add a few classes of its own. The following classes have been extended:
+CocoaPuffs is a Mac OS X framework that adds functionality to many Cocoa and Foundation classes as well as add a few classes of its own. The following classes have been extended:
 
 - NSObject
 - NSString
