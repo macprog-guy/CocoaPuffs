@@ -1,0 +1,51 @@
+= CocoaPuffs Framework
+
+CocoaPuffs is a Mac OS X framework that adds functionality to many Cocoa and Foundation classes
+as well as add a few classes of its own. The following classes have been extended:
+
+- NSObject
+- NSString
+- NSArray
+- NSDictionary
+- NSData
+- NSMutableDictionary
+- NSColor
+- NSIndexSet
+- NSURL
+- NSFont+CFTraits.h
+- NSBezierPath
+- NSTreeController+Additions.h
+- NSMutableData
+- NSViewController
+- NSView
+- NSLayoutConstraint
+- NSTableView
+- CALayer
+- CATextLayer
+- CATransaction
+- CAKeyFrameAnimation
+
+== Additional Classes
+
+The following new classes are provided:
+
+NUPluginManager: a class that makes loading plugin bundles with callbacks based on UTI conformity very easy.
+NUSimpleGradient: a class that has two color properties and one gradient property to facilitate the creation of gradient inspectors using bindings.
+NUWeakReference: an object wrapper around a weakly held reference.
+NUZeroingDictionary: an NSDictionary that can hold weak references and periodically removes values that have been NUllified.
+NUFontSelectionHelper: makes creating custom font inspectors a little bit easier by decomposing the font into bindings compatible properties.
+NUUserInterface: helps make unit testing of user interfaces possible and less weak than pure events.
+
+CGColorToNSColorValueTransformer: converts between CGColor and NSColor as the name implies.
+NUBlockValueTransformer: one way value transformer using an arbitrary block of code.
+NUBoolToNSColorValueTransformer: converts BOOLs to an NSColor which is nice for NSTableViews.
+NURoundingValueTransformer: applies a linear transform to a value and rounds the value to a specified NUmber of decimals.
+NULayerCoordinateValueTransformer: transforms a point from one layers coordinate system to anothers.
+
+== Additional View Classes
+
+NUDelegatingView: a view that delegates all mouse events (and more) to its delegate when possible.
+NUFileBrowserNodeItem: class used by the NUFileBrowserTreeController
+NUFileBrowserTreeController: an NSOutlineView that is pre-populated with the content of a directory.
+NUFontFamilyMenu: a NSMenu with an entry for each font-family using that font.
+NUVolumesPopUpButton: a Popup with existing volumes and additional custom URLs.

@@ -1,0 +1,5 @@
+LocationX,LocationY,Tagged,Name
+1.2134,2,Y,PointA
+5.4321,3.12,N,PointB
+4.2,4.98,N,PointC
+1.0,0.234,Y,PointD

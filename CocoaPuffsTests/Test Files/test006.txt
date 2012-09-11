@@ -1,0 +1,6 @@
+LocationX,LocationY,Tagged,Name
+1.2134,2,Y
+5.4321,3.12,,PointB
+,,N,PointC
+1.0,0.234,f,
+1.0,0.234,f,this,is,an,error

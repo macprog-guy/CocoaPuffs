@@ -1,0 +1,5 @@
+CustomerID	FirstName	LastName
+12345	Eric	Methot
+54321	Laurence	Darling
+13579	Scott	Tiger
+97643	Helena	Lourenco
