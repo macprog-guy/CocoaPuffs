@@ -48,3 +48,15 @@ NUFileBrowserNodeItem: class used by the NUFileBrowserTreeController
 NUFileBrowserTreeController: an NSOutlineView that is pre-populated with the content of a directory.
 NUFontFamilyMenu: a NSMenu with an entry for each font-family using that font.
 NUVolumesPopUpButton: a Popup with existing volumes and additional custom URLs.
+NUPropertyInspectorView: WORK-IN-PROGRESS inspector for a single property. Works with NUPropertySheetView.
+NUPropertySheetView: WORK-IN-PROGRESS a collection of stacked properties inspectors with a title and a disclosure button. Put many of these in a NSStackedView: a view that vertically stacks its subviews with an optional row-spacing.
+NURangeSlider: a two knob range slider.
+NUSegmentedView: base class of other segmented views.
+NUSegmentedButtonView: similar to NSSegmentedControl except that you can bind each button individually.
+NUSegmentedTabView: same as NSSegmentedButtonView except that it draws tabs at the top instead of buttons.
+NUSegmentedSheetView: same as NSSegmenedButtonView except that it draws "sorta" tabs at the bottom that look more like those in excel.
+NUSelectableView: Just a view that resizes it only subview to fit its bounds. Bind its contentView to a NSSegmentedButtonView.selectedObject.representedObject.view and you effectively have a nice looking tab view.
+NUSplitbarView: Makes it easier to have a whole bar that can act as a splitter. The bar is an arbitrary view that can contain other controls.
+NUStackedView: a view that simply stacks its subviews vertically (with an optional rowSpacing) and has their widths fill the width of its bounds.
+
+
