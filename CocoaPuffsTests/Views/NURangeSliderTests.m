@@ -1,6 +1,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "CocoaPuffs.h"
+#import <CocoaPuffs/CocoaPuffs.h>
 
 @interface NURangeSliderTests : SenTestCase {
     NURangeSlider *_slider;

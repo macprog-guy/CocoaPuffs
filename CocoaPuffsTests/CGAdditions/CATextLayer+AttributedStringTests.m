@@ -1,7 +1,7 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 #import <QuartzCore/QuartzCore.h>
-#import "CocoaPuffs.h"
+#import <CocoaPuffs/CocoaPuffs.h>
 
 @interface CATextLayer_AttributedStringTests : SenTestCase
 

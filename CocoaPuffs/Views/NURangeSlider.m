@@ -1,6 +1,6 @@
 
 #import "NURangeSlider.h"
-#import "CocoaPuffs.h"
+#import <CocoaPuffs/CocoaPuffs.h>
 
 static double kGrooveHeight =  4.0;
 static double kRangeHeight  =  8.0;

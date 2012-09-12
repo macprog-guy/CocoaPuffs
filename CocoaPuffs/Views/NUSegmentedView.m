@@ -1,6 +1,6 @@
 
 #import "NUSegmentedView.h"
-#import "CocoaPuffs.h"
+#import <CocoaPuffs/CocoaPuffs.h>
 
 // -----------------------------------------------------------------------------
    #pragma mark - NUSegmentInfo

@@ -1,6 +1,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "CocoaPuffs.h"
+#import <CocoaPuffs/CocoaPuffs.h>
 
 typedef enum NUDelegatedMouseEvent : NSUInteger {
     

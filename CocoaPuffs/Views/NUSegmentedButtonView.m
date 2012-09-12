@@ -1,6 +1,6 @@
 
 #import "NUSegmentedButtonView.h"
-#import "CocoaPuffs.h"
+#import <CocoaPuffs/CocoaPuffs.h>
 
 static NSGradient *gDeselectedGradient;
 static NSGradient *gSelectedGradient;

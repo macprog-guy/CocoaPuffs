@@ -1,5 +1,5 @@
 #import <SenTestingKit/SenTestingKit.h>
-#import "CocoaPuffs.h"
+#import <CocoaPuffs/CocoaPuffs.h>
 
 @interface NSTreeController_NUExtensionsTests : SenTestCase {
     NSTreeController *_controller;

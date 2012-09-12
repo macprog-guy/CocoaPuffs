@@ -1,6 +1,6 @@
 
 #import "NUSegmentedTabView.h"
-#import "CocoaPuffs.h"
+#import <CocoaPuffs/CocoaPuffs.h>
 
 static NSGradient *gBackgroundGradient;
 static NSColor    *gBackgroundColor;

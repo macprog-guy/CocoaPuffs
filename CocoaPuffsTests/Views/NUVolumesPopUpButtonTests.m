@@ -1,6 +1,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "CocoaPuffs.h"
+#import <CocoaPuffs/CocoaPuffs.h>
 
 @interface NUVolumesPopUpButtonTests : SenTestCase {
     NUVolumesPopUpButton *_volumesPopUp;
