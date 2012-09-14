@@ -12,7 +12,7 @@ static NUZeroingDictionary *gSharedZeroingDict = nil;
     
     float timerInterval;
     
-    NSMutableDictionary __strong *dict;
+    NSMutableDictionary *dict;
 }
 
 @end

@@ -15,13 +15,13 @@ NSString *kSimpleXPCReplyExpectedKey = @"_replyExpected";
 
 @interface NUSimpleXPCEvent() {
     
-    NUSimpleXPCPeer __strong *peer;
+    NUSimpleXPCPeer *peer;
     xpc_connection_t xpc_reply_connnection;
     xpc_object_t xpc_message;
     
-    NSString     __strong *name;
-    NSDate       __strong *timestamp;
-    NSDictionary __strong *message;
+    NSString     *name;
+    NSDate       *timestamp;
+    NSDictionary *message;
     BOOL replyExpected;
 }
 
@@ -336,8 +336,8 @@ NSString *kSimpleXPCReplyExpectedKey = @"_replyExpected";
    #pragma mark - NUSimpleXPCServer
 // -----------------------------------------------------------------------------
 
-static NUSimpleXPCServer __strong *gXPCServer = nil;
-static NSMutableArray    __strong *gXPCPeers  = nil;
+static NUSimpleXPCServer *gXPCServer = nil;
+static NSMutableArray    *gXPCPeers  = nil;
 
 static void NUSimpleXPCServer_connection_handler(xpc_connection_t connection)
 {

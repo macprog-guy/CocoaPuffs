@@ -10,7 +10,7 @@ static NSDictionary *gLabelAttributesAlignCenter;
 
 
 @interface NUSegmentedButtonView() {
-    __strong NSBezierPath *segmentsBorder;
+    NSBezierPath *segmentsBorder;
     CGRect segmentsRect;
 }
 @end

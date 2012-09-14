@@ -25,9 +25,9 @@ static NSDictionary *gSelectedLabelAttributesAlignLeft = nil;
 static NSDictionary *gSelectedLabelAttributesAlignCenter = nil;
 
 @interface NUSegmentedTabView() {
-    __strong NSBezierPath *openedBorderPath;
-    __strong NSBezierPath *openedTabOuterPath;
-    __strong NSBezierPath *openedTabInnerPath;
+    NSBezierPath *openedBorderPath;
+    NSBezierPath *openedTabOuterPath;
+    NSBezierPath *openedTabInnerPath;
     
     CGRect backgroundRect;
     CGRect backgroundGradientRect;
