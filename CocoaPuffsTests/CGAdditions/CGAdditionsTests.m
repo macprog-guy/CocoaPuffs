@@ -205,6 +205,25 @@
     STAssertTrue(CGRectEqualToRect(center2, bounds), @"Rects should be equal");
 }
 
+- (void) testCGRectCenterVerticallyInRect
+{
+    CGRect b = CGRectMake(0, 0, 100, 100);
+    CGRect r = CGRectMake(10, 3, 20, 20);
+    CGRect p = CGRectCenterVerticallyInRect(b, r);
+    
+    STAssertTrue(CGRectEqualToRect(p, CGRectMake(10, 40, 20, 20)), @"Result not as expected");
+}
+
+- (void) testCGRectCenterHorizontallyInRect
+{
+    CGRect b = CGRectMake(0, 0, 100, 100);
+    CGRect r = CGRectMake(10, 3, 20, 20);
+    CGRect p = CGRectCenterHorizontallyInRect(b, r);
+    
+    STAssertTrue(CGRectEqualToRect(p, CGRectMake(40, 3, 20, 20)), @"Result not as expected");
+}
+
+
 - (void) testCGRectCorner
 {
     CGRect  r = CGRectMake(0, 0, 100, 100);

@@ -270,7 +270,7 @@
                                         error:&error];
     
     if (error != nil)
-        return [NSMutableArray array];
+        return [NSMutableArray array]; // COV_NF_LINE
 
 
     NSMutableArray *nodes = [NSMutableArray arrayWithCapacity:URLs.count];
