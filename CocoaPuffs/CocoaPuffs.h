@@ -60,3 +60,5 @@
 #import "NUStackedView.h"
 #import "NUVolumesPopUpButton.h"
 
+// Simple type definitions
+typedef void (^NUVoidBlock)(void);
