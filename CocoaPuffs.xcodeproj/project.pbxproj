@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0713ED6E1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0713ED6C1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.h */; };
+		0713ED6E1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0713ED6C1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0713ED6F1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0713ED6D1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.m */; };
 		0785775015FF4FD900C28714 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0785774F15FF4FD900C28714 /* Cocoa.framework */; };
 		0785775A15FF4FD900C28714 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0785775815FF4FD900C28714 /* InfoPlist.strings */; };
@@ -803,8 +803,8 @@
 				078579DE15FFA7A200C28714 /* NUSelectableView.h in Headers */,
 				078579E015FFA7A200C28714 /* NUSplitbarView.h in Headers */,
 				078579E215FFA7A200C28714 /* NUStackedView.h in Headers */,
-				078579E415FFA7A200C28714 /* NUVolumesPopUpButton.h in Headers */,
 				0713ED6E1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.h in Headers */,
+				078579E415FFA7A200C28714 /* NUVolumesPopUpButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
