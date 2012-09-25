@@ -18,6 +18,7 @@
 #import "NSView+NUExtensions.h"
 #import "NSLayoutConstraint+NUExtensions.h"
 #import "NSTableView+NUExtensions.h"
+#import "NSValueTransformer+NUExtensions.h"
 
 // Quartz Core
 #import "CGAdditions.h"

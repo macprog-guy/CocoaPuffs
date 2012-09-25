@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0713ED6E1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0713ED6C1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.h */; };
+		0713ED6F1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0713ED6D1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.m */; };
 		0785775015FF4FD900C28714 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0785774F15FF4FD900C28714 /* Cocoa.framework */; };
 		0785775A15FF4FD900C28714 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0785775815FF4FD900C28714 /* InfoPlist.strings */; };
 		0785776615FF4FD900C28714 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0785776515FF4FD900C28714 /* SenTestingKit.framework */; };
@@ -197,6 +199,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0713ED6C1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+NUExtensions.h"; sourceTree = "<group>"; };
+		0713ED6D1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+NUExtensions.m"; sourceTree = "<group>"; };
 		0785774C15FF4FD800C28714 /* CocoaPuffs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaPuffs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0785774F15FF4FD900C28714 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0785775215FF4FD900C28714 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -680,6 +684,8 @@
 				0785794D15FFA7A200C28714 /* NSView+NUExtensions.m */,
 				0785794E15FFA7A200C28714 /* NSViewController+NUExtensions.h */,
 				0785794F15FFA7A200C28714 /* NSViewController+NUExtensions.m */,
+				0713ED6C1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.h */,
+				0713ED6D1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -798,6 +804,7 @@
 				078579E015FFA7A200C28714 /* NUSplitbarView.h in Headers */,
 				078579E215FFA7A200C28714 /* NUStackedView.h in Headers */,
 				078579E415FFA7A200C28714 /* NUVolumesPopUpButton.h in Headers */,
+				0713ED6E1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -973,6 +980,7 @@
 				078579E115FFA7A200C28714 /* NUSplitbarView.m in Sources */,
 				078579E315FFA7A200C28714 /* NUStackedView.m in Sources */,
 				078579E515FFA7A200C28714 /* NUVolumesPopUpButton.m in Sources */,
+				0713ED6F1610F0AF001A71E6 /* NSValueTransformer+NUExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
